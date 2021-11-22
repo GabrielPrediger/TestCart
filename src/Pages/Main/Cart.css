@@ -1,0 +1,104 @@
+.main{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.main > h1{
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.divisor {
+    border: solid 1px #c7c7c7;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 20px 20px ;
+}
+
+.card img {
+    padding: 10px;
+    width: 20%;
+    height: 20%;
+    border: 1px solid #c7c7c7;
+}
+
+.card > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    margin: 0;
+
+}
+
+.item-name{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item-price1{
+    margin: 0;
+    padding-top: 10px;
+    font-size: 14px;
+    color: rgb(194, 194, 194);
+}
+
+.item-price2{
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.total-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 20px 0 20px;
+}
+
+.total-container > h1 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.container-free{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.free {
+    color: #288e3c;
+    background-color:#c7ffa6;
+    border-radius: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #3b74f2;
+    color: #fff;
+    text-align: center;
+    padding: 15px 30%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.button:hover{
+    opacity: 0.9;
+}
